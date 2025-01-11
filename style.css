@@ -512,4 +512,5 @@ footer .icon{
     justify-content: center;
     gap: 30px;
     margin-top: 30px;
+    cursor: pointer;
 }
