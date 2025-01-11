@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body{
+    background-color: rgba(241, 241, 243, 1);
+}
+/* all button apply */
+.btn {
+    width: 130px;
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn:hover{
+background-color: rgb(2, 61, 46);
+}
+/* all secton apply  */
+
+section {
+    width: 80vw;
+    margin: 10px auto;
+
+
+}
+
+.navbar {
+    border: 3px slateblue;
+
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+
+
+}
+
+.sign-up {
+    background-color: transparent;
+    padding: 7px 20px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 106, 80, 1);
+    color: rgba(0, 106, 80, 1);
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.sign-up:hover{
+   background-color: rgba(0, 106, 80, 1);
+   color: white;
+
+}
+
+.navbar h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/*header  banner */
+.banner {
+    max-width: 1190px;
+    height: 430px;
+    background-color: rgba(198, 228, 214, 1);
+    margin-top: 30px;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.banner-info h4 {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px
+}
+
+.banner-info p {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.explore-bng {
+    margin-top: 10px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+
+}
+
+
+/* main  */
+/*  pillers */
+
+.pillers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.piller-title {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.piller {
+    margin-top: 20px;
+    border: 1px solid rgba(213, 214, 216, 1);
+    width: 302px;
+    height: 244px;
+    padding-top: 15px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.pillers img {
+    width: 64px;
+
+}
+
+/* vision */
+
+.vision-title h1 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.vision-title p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+.visions {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+
+}
+
+.vision {
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 400px;
+    height: 300px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.vision img {
+    width: 70px;
+}
+
+.vision h3 {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.vision p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+
+.vision .learn {
+
+    width: 122px;
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+
+
+
+}
+
+.vision-first {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.vision-first button {
+    background-color: rgba(84, 144, 245, 1);
+}
+
+.vision-second {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.vision-second button {
+    background-color: rgba(9, 161, 92, 1);
+    cursor: pointer;
+
+}
+
+   
+
+.vision-third {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.vision-third button {
+    background-color: rgba(255, 194, 57, 1);
+}
+
+/*main    chip-adviser-info */
+.chip-adviser-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 1);
+    height: 180px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.chip-adviser-info{
+
+
+}
+
+.chip-adviser-info p {
+   
+background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: left top; */
+    background-position-y:top left ;
+  
+
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+}
+
+.chip-adviser-info h3 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20;
+}
+
+.chip-adviser-info h4 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+}
+
+/*main  tabel */
+.table {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 20px;
+
+}
+
+.table-title {
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.table table {
+
+    padding: 30px;
+    width: 90%;
+    margin: auto;
+
+
+}
+
+table th {
+    text-align: start;
+}
+
+table button {
+    text-align: center;
+}
+table button:hover{
+    color: white;
+}
+
+table,
+th,
+td {
+
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-collapse: collapse;
+    height: 80px;
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+th {
+    border: none;
+}
+
+.table td,
+th {
+    padding-left: 20px;
+}
+
+.table th,
+.agree {
+    background-color: rgba(198, 228, 214, 1);
+    color: black;
+
+
+}
+
+.table .agree i {
+    font-size: 19px;
+}
+
+/* Recent News */
+.recent-news-title {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.recent-news {
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    /* border: 0.5px solid rgba(14, 14, 14, 0.15); */
+    margin-top: 20px;
+}
+
+.recent-left img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+.recent-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recent-right h1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+}
+
+.recent-right p,
+h5 {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 15px;
+}
+
+.recent-right img {
+    width: 100px;
+}
+
+.donate {
+    text-align: center;
+    width: 100%;
+    margin: 30px 0px 40px 0;
+
+
+
+
+}
+
+.amount-boxs {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.amount-boxs :nth-child(2) {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.amount-boxs :nth-child(1):hover {
+    background-color: rgb(233, 186, 178);
+}
+
+.amount-boxs :nth-child(2):hover {
+    background-color: rgb(160, 225, 194);
+}
+
+.amount-boxs :nth-child(3):hover {
+    background-color: rgb(175, 211, 244);
+}
+
+.amount-boxs :nth-child(4):hover {
+    background-color: rgb(235, 224, 143);
+}
+
+.amount-box {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0.5px solid rgba(14, 14, 14, 0.15);
+    width: 200px;
+    height: 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount-input {
+    margin-top: 25px;
+    width: 900px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+    border: none;
+    outline: none;
+    padding:0 30px 0 30px ;
+    font-size: 18px;
+}
+.donate input[type="search"]::placeholder{
+    
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+
+}
+.donate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+/* subscribe */
+.subscribe{
+    background-color: rgba(198, 228, 214, 1);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+
+
+}
+.subscribe input{
+    width: 600px;
+    height: 50px;
+        border: none;
+        outline: none;
+        padding: 0 30px 0 30px;
+        font-size: 18px;
+        border-radius: 10px 0 0 10px;
+
+}
+.subscribe p{
+    color: rgba(14, 14, 14, 0.7);
+}
+.subscribe h1{
+    font-size: 40px;
+}
+.subscribe .sub{
+
+    height: 50px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+
+}
+.serch-bar{
+    display: flex;
+}
+footer{
+    background-color: aliceblue;
+    height: 220px;
+}
+footer h1{
+    margin: 30px auto ;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+footer .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
